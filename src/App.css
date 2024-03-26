@@ -1,0 +1,28 @@
+/* Estilos para el contenedor principal */
+#root {
+  max-width: 1280px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 2rem; /* Espaciado interno del contenedor */
+  text-align: center; /* Alineación del texto al centro */
+  font-family: "Poppins"; /* Fuente utilizada */
+}
+
+/* Estilos para las tarjetas */
+.cardStyle {
+  width: 50rem; /* Ancho de la tarjeta */
+  height: 35rem; /* Altura de la tarjeta */
+  background-color: white; /* Color de fondo de la tarjeta */
+}
+
+/* Estilos para las imágenes dentro de las tarjetas */
+.imgStyle {
+  padding: 1rem 2rem; /* Espaciado interno de la imagen */
+  height: 20em; /* Altura de la imagen */
+  object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+  width: 100%; /* Ancho de la imagen */
+}
+
+/* Estilos para las etiquetas */
+.badgeStyle {
+  width: 90%; /* Ancho de las etiquetas */
+}
